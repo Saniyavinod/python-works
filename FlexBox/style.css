@@ -1,0 +1,46 @@
+.border{
+    border: 1px solid black;
+
+}
+
+
+body{
+
+    /* two types of units are there 1.relative ex: %,vw,vh  2.absolute ex:px */
+
+    height: 100vh;
+    width: 100vw;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+.parent{
+    width: 70%;
+    height: 400px;
+    background-color: blueviolet;
+    display: flex;
+
+
+/* justify-content used to set spacing horizondaly */
+
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+/* justify-content used to set spacing verticaly */
+
+    /* align-items: flex-start;
+    align-items: flex-end; */
+    align-items: center;
+}
+
+
+.child{
+    width: 20%;
+    height: 250px;
+    background-color: plum;
+}

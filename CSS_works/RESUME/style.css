@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(130, 211, 231);
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Image styling */
+img {
+    width: 180px; /* Set width for uniform size */
+    height: 180px; /* Set height equal to width */
+    border-radius: 50%; /* Make the image circular */
+    
+}
+/* Container styling */
+.container {
+    width: 100%; /* Ensuring full width use */
+    max-width: 800px; /* Limiting max width to fit resume size */
+    margin: 0 auto;
+    display: grid;
+    padding: 2rem; /* Reduced padding for compact look */
+    background-color:white;
+    grid-template-columns: 1fr 1fr; /* Two-column grid for layout */
+    gap: 3rem; /* Reduced gap for resume */
+}
+
+/* Profile styling */
+.profile {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    margin-bottom: 1rem; /* Reduced margin */
+}
+
+/* Profile container styling */
+.profilecontainer {
+    display: flex;
+    gap: 1rem; /* Reduced gap for compactness */
+}
+
+/* Profile name styling */
+.profile_name {
+    color: black;
+    font-size: 2rem; /* Slightly reduced font size */
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+/* Profile title styling */
+.profile_title {
+    color: black;
+    font-size: 1.5rem; /* Reduced font size */
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Group styling */
+.group1,
+.group2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; /* Reduced gap for compactness */
+}
+
+/* Adjusting the positioning of Contact and Social sections */
+/* Contact and Socials Section Styling */
+.contact, .socials {
+    padding: 1rem; /* Add padding for spacing */
+    background-color: white; /* Light gray background for distinction */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: left; /* Align text to the left */
+}
+
+.contact_info, .social_links {
+    display: flex; /* Flexbox layout for better alignment */
+    flex-direction: column;
+    gap: 0.5rem; /* Space between each line */
+}
+
+.contact_info p, .social_links a {
+    font-size: 1.2rem; /* Font size for readability */
+    display: flex;
+    align-items: center; /* Align text with icons */
+}
+
+.contact_info i, .social_links i {
+    margin-right: 0.5rem; /* Space between icon and text */
+    color: #0077b5; /* Icon color */
+    font-size: 1.5rem; /* Icon size */
+}
+
+.social_links a {
+    color: black; /* Text color for social links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.social_links a:hover {
+    text-decoration: underline; /* Underline on hover for visual feedback */
+}
+
+
+.group3 {
+    max-width: 600px; /* Reduced max width for resume size */
+    width: 100%;
+    margin: 0 auto;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem; /* Reduced gap for compactness */
+}
+
+.group3 > div {
+    flex: 1;
+}
+
+/* Description styling */
+.description {
+    color: black;
+    margin-top: 0.5rem; /* Reduced margin */
+    font-size: 1.2rem; /* Reduced font size */
+    font-weight: 400;
+}
+
+/* Skills styling */
+.skills {
+    line-height: 1.5rem; /* Reduced line height */
+    margin-top: 0.5rem; /* Reduced margin */
+    margin-left: 1rem; /* Reduced margin */
+}
+
+/* Title styling */
+.title {
+    font-weight: 700;
+    font-size: 1.5rem; /* Reduced font size */
+    text-transform: uppercase;
+    color: blue;
+    
+}
+
+/* Leadership styling */
+.Leadership {
+    line-height: 1.5rem; /* Reduced line height */
+    margin-top: 0.5rem; /* Reduced margin */
+    margin-left: 1rem; /* Reduced margin */
+}
+
+/* Projects styling */
+.projects {
+    line-height: 1.5rem; /* Reduced line height */
+    margin-top: 0.5rem; /* Reduced margin */
+    margin-left: 1rem; /* Reduced margin */
+}
+
+/* HR line styling */
+.hr {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    width: 70%; /* Reduced width for resume */
+    margin: 0 auto;
+    margin-top: 2rem; /* Reduced margin */
+    margin-bottom: 0.5rem; /* Reduced margin */
+    border: none;
+    border-top: 1px solid black;
+}

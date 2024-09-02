@@ -1,0 +1,135 @@
+
+body{
+    background-color: black;
+}
+.spectrum-heading {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+.parent{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+
+}
+.child1,.child2,.child3,.child4,.child5
+{
+    width: 50px;
+    height: 70px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+   
+}
+.child1{
+    background-color:#f14974 ;
+    
+}
+.child2{
+    background-color: #ff815a;
+}
+.child3{
+    background-color: #b92990;
+}
+.child4{
+    background-color: #f9f871;
+
+}
+.child5{
+    background-color: #00c0a7 ;
+}
+.parent1{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+    
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.child6,.child7,.child8,.child9,.child10,.child11,.child12
+{
+    width: 50px;
+    height: 70px;
+    margin-left: 10px;
+    margin-bottom: 1;
+   
+}
+.child6{
+    background-color:#f14974 ;
+    
+}
+.child7{
+    background-color: #ff815a;
+}
+.child8{
+    background-color: #b92990;
+}
+.child9{
+    background-color: #f9f871;
+
+}
+.child10{
+    background-color: #00c0a7 ;
+}
+.child11{
+    background-color: #f9f871;
+
+}
+.child12{
+    background-color: #00c0a7 ;
+}
+.parent2{
+    width:100% ;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+    
+    align-items: center;
+}
+.child13,.child14,.child15,.child16,.child17,.child18,.child19,.child20,.child21{
+    width: 50px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 1;
+}
+.child13{
+    background-color:#f14974 ;
+    
+}
+.child14{
+    background-color: #ff815a;
+}
+.child15{
+    background-color: #b92990;
+}
+.child16{
+    background-color: #f9f871;
+
+}
+.child17{
+    background-color: #00c0a7 ;
+}
+.child18{
+    background-color: #f9f871;
+
+}
+.child19{
+    background-color: #00c0a7 ;
+}
+.child20{
+    background-color: #f9f871;
+
+}
+.child21{
+    background-color: #00c0a7 ;
+}

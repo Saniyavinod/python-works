@@ -5,7 +5,7 @@ class student:
     address: str
     age: int
 
-    def set_student(self, name, id, gender, address, age):
+    def __init__(self, name, id, gender, address, age):
         self.name = name
         self.id = id
         self.gender = gender
@@ -17,11 +17,10 @@ class student:
 
 
 # Create object
-student_instance = student()
+student_instance = student("saniya", 6, "female", "hhh", 89)
 
-student_instance.set_student("saniya", 6, "female", "hhh", 89)
+
 student_instance.display_student()  # Call the display_student method to show student details
 
 
 
-# 
